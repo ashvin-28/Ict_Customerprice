@@ -166,6 +166,9 @@ class Save extends \Magento\Framework\App\Action\Action
     }
 
     /**
+     * Get scope config value
+     *
+     * @param string $path
      * @return Scope Config Value | string
      */
     public function getConfigData($path)

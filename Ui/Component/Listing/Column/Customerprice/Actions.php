@@ -27,7 +27,7 @@ class Actions extends \Magento\Ui\Component\Listing\Columns\Column
      */
     public const NAME_FIELD = 'name';
 
-    /*
+    /**
      * @var \Magento\Framework\UrlInterface
      */
     protected $urlBuilder;

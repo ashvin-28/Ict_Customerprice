@@ -79,6 +79,9 @@ class PriceBlock implements \Magento\Framework\Event\ObserverInterface
     }
 
     /**
+     * Get scope config value
+     *
+     * @param string $path
      * @return Scope Config Value | string
      */
     public function getConfigData($path)

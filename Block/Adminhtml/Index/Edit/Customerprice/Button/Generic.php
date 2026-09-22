@@ -29,8 +29,8 @@ class Generic
     /**
      * Generate url by route and parameters
      *
-     * @param array $params
      * @param string $route
+     * @param array $params
      * @return string
      */
     public function getUrl($route = '', $params = [])

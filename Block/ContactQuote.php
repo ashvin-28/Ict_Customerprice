@@ -26,7 +26,7 @@ class ContactQuote extends \Magento\Framework\View\Element\Template
     protected $session;
 
     /**
-     * \Magento\Framework\App\Config\ScopeConfigInterface
+     * @var \Magento\Framework\App\Config\ScopeConfigInterface
      */
     protected $config;
 
@@ -55,6 +55,8 @@ class ContactQuote extends \Magento\Framework\View\Element\Template
     }
 
     /**
+     * Get store base url
+     *
      * @return string
      */
     public function getStoreBaseUrl()
@@ -63,6 +65,8 @@ class ContactQuote extends \Magento\Framework\View\Element\Template
     }
 
     /**
+     * Get customer login status
+     *
      * @return bool
      */
     public function getCustomerLogin()
@@ -72,6 +76,9 @@ class ContactQuote extends \Magento\Framework\View\Element\Template
     }
 
     /**
+     * Get scope config value
+     *
+     * @param string $path
      * @return Scope Config Value | string
      */
     public function getConfigData($path)
@@ -85,6 +92,8 @@ class ContactQuote extends \Magento\Framework\View\Element\Template
     }
 
     /**
+     * Check if module is enabled
+     *
      * @return bool
      */
     public function isEnable()
@@ -93,6 +102,8 @@ class ContactQuote extends \Magento\Framework\View\Element\Template
     }
 
     /**
+     * Get login button text
+     *
      * @return string
      */
     public function getLoginButtonText()
@@ -101,6 +112,8 @@ class ContactQuote extends \Magento\Framework\View\Element\Template
     }
 
     /**
+     * Get login button enable status
+     *
      * @return string
      */
     public function getLoginButtonEnable()
@@ -109,6 +122,8 @@ class ContactQuote extends \Magento\Framework\View\Element\Template
     }
 
     /**
+     * Get contact button text
+     *
      * @return string
      */
     public function getContactButtonText()
@@ -117,6 +132,8 @@ class ContactQuote extends \Magento\Framework\View\Element\Template
     }
 
     /**
+     * Get contact button enable status
+     *
      * @return string
      */
     public function getContactButtonEnable()

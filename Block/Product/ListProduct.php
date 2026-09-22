@@ -13,6 +13,8 @@ namespace Ict\Customerprice\Block\Product;
 class ListProduct extends \Magento\Catalog\Block\Product\ListProduct
 {
     /**
+     * Get price render block
+     *
      * @return render
      */
     protected function getPriceRender()

@@ -79,8 +79,8 @@ $enableContactQuote = $block->getContactButtonEnable();
     }
 </script>
 
-<script type="text/javascript">
-require(["jquery", "jquery/ui"], function($){  
+<script>
+require(["jquery", "jquery/ui"], function($){
     jQuery(document).ready(function(){
         jQuery('body').on('keydown','input[name="telephone"], input[name="zipcode"], .product-qty', function(e){
             if (jQuery.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190,8,9]) !== -1
