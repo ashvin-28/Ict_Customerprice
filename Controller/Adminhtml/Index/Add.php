@@ -15,6 +15,11 @@ use Magento\Framework\Controller\ResultFactory;
 class Add extends \Magento\Backend\App\Action
 {
     /**
+     * Authorization level of a basic admin session
+     */
+    public const ADMIN_RESOURCE = 'Ict_Customerprice::contactquote';
+
+    /**
      * @var \Magento\Framework\View\Result\PageFactory
      */
     protected $resultPageFactory;

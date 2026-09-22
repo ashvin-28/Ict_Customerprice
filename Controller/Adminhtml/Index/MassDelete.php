@@ -15,6 +15,11 @@ use Magento\Framework\Controller\ResultFactory;
 class MassDelete extends \Magento\Backend\App\Action
 {
     /**
+     * Authorization level of a basic admin session
+     */
+    public const ADMIN_RESOURCE = 'Ict_Customerprice::index_delete';
+
+    /**
      * @var \Ict\Customerprice\Model\ResourceModel\Customerprice\CollectionFactory
      */
     protected $collectionFactory;

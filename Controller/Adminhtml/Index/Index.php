@@ -16,6 +16,11 @@ use Magento\Framework\View\Result\Page;
 class Index extends Action
 {
     /**
+     * Authorization level of a basic admin session
+     */
+    public const ADMIN_RESOURCE = 'Ict_Customerprice::contactquote';
+
+    /**
      * @var \Magento\Framework\View\Result\PageFactory
      */
     private $pageFactory;

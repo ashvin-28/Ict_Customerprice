@@ -15,6 +15,11 @@ use Magento\Backend\App\Action;
 class Save extends Action
 {
     /**
+     * Authorization level of a basic admin session
+     */
+    public const ADMIN_RESOURCE = 'Ict_Customerprice::contactquote';
+
+    /**
      * @var \Ict\Customerprice\Model\Customerprice
      */
     protected $customerprice;
