@@ -1,0 +1,22 @@
+{
+    "name": "ict/customerprice",
+    "description": "Ict Customerprice",
+    "require": {
+      "php": "~7.3.0|~7.4.0|~8.1.0|~8.2.0|~8.3.0"
+    },
+    "type": "magento2-module",
+    "version": "2.0.3",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ict\\Customerprice\\": ""
+        }
+    }
+    
+}
